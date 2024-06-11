@@ -23,73 +23,71 @@ Title: Bookstore API Documentation
 
 6. Project Structure
 
-
-	bookstoreapi
-	│
-	├── src
-	│   ├── main
-	│   │   ├── java
-	│   │   │   └── com
-	│   │   │       └── api
-	│   │   │           └── bookstoreapi
-	│   │   │               ├── BookstoreApiApplication.java
-	│   │   │               ├── controller
-	│   │   │               │   ├── BookController.java
-	│   │   │               │   └── OrderController.java
-	│   │   │               ├── exception
-	│   │   │               │   ├── BookException.java
-	│   │   │               │   └── BookExceptionHandler.java
-	│   │   │               │   └── BookNotFoundException.java
-	│   │   │               ├── model
-	│   │   │               │   ├── Book.java
-	│   │   │               │   ├── BookFactory.java
-	│   │   │               │   ├── Order.java
-	│   │   │               │   └── OrderFactory.java
-	│   │   │               ├── repository
-	│   │   │               │   ├── BookRepository.java
-	│   │   │               │   ├── BookRepositoryImpl.java
-	│   │   │               │   └── OrderRepository.java
-	│   │   │               ├── response
-	│   │   │               │   └── ResponseHandler.java
-	│   │   │               └── service
-	│   │   │                   ├── BookService.java
-	│   │   │                   ├── OrderService.java
-	│   │   │                   ├── impl
-	│   │   │                   │   ├── BookServiceImpl.java
-	│   │   │                   │   └── OrderServiceImpl.java
-	│   │   │                   └── OrderProcessor.java
-	│   │   └── resources
-	│   │       └── application.properties
-	│   └── test
-	│       └── java
-	│           └── com
-	│               └── api
-	│                   └── bookstoreapi
-	│                       ├── BookstoreApplicationTests.java
-	│                       ├── controller
-	│                       │   ├── BookControllerTest.java
-	│                       │   └── OrderControllerTest.java
-	│                       ├── exception
-	│                       │   ├── BookNotFoundExceptionTest.java
-	│                       │   ├── BookExceptionHandlerTest.java
-	│                       │   └── BookExceptionTest.java
-	│                       ├── model
-	│                       │   ├── BookTest.java
-	│                       │   ├── BookFactoryTest.java
-	│                       │   ├── OrderTest.java
-	│                       │   └── OrderFactoryTest.java
-	│                       ├── repository
-	│                       │   ├── BookRepositoryImplTest.java
-	│                       │   └── OrderRepositoryTest.java
-	│                       └── service
-	│                           ├── BookServiceTest.java
-	│                           ├── OrderServiceTest.java
-	│							└──impl
-	│                           	├── BookServiceTest.java
-	│                           	└── OrderServiceTest.java
-	├── pom.xml
-	└── README.md
-
+bookstoreapi
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── api
+│   │   │           └── bookstoreapi
+│   │   │               ├── BookstoreApiApplication.java
+│   │   │               ├── controller
+│   │   │               │   ├── BookController.java
+│   │   │               │   └── OrderController.java
+│   │   │               ├── exception
+│   │   │               │   ├── BookException.java
+│   │   │               │   └── BookExceptionHandler.java
+│   │   │               │   └── BookNotFoundException.java
+│   │   │               ├── model
+│   │   │               │   ├── Book.java
+│   │   │               │   ├── BookFactory.java
+│   │   │               │   ├── Order.java
+│   │   │               │   └── OrderFactory.java
+│   │   │               ├── repository
+│   │   │               │   ├── BookRepository.java
+│   │   │               │   ├── BookRepositoryImpl.java
+│   │   │               │   └── OrderRepository.java
+│   │   │               ├── response
+│   │   │               │   └── ResponseHandler.java
+│   │   │               └── service
+│   │   │                   ├── BookService.java
+│   │   │                   ├── OrderService.java
+│   │   │                   ├── impl
+│   │   │                   │   ├── BookServiceImpl.java
+│   │   │                   │   └── OrderServiceImpl.java
+│   │   │                   └── OrderProcessor.java
+│   │   └── resources
+│   │       └── application.properties
+│   └── test
+│       └── java
+│           └── com
+│               └── api
+│                   └── bookstoreapi
+│                       ├── BookstoreApplicationTests.java
+│                       ├── controller
+│                       │   ├── BookControllerTest.java
+│                       │   └── OrderControllerTest.java
+│                       ├── exception
+│                       │   ├── BookNotFoundExceptionTest.java
+│                       │   ├── BookExceptionHandlerTest.java
+│                       │   └── BookExceptionTest.java
+│                       ├── model
+│                       │   ├── BookTest.java
+│                       │   ├── BookFactoryTest.java
+│                       │   ├── OrderTest.java
+│                       │   └── OrderFactoryTest.java
+│                       ├── repository
+│                       │   ├── BookRepositoryImplTest.java
+│                       │   └── OrderRepositoryTest.java
+│                       └── service
+│                           ├── BookServiceTest.java
+│                           ├── OrderServiceTest.java
+│							└──impl
+│                           	├── BookServiceTest.java
+│                           	└── OrderServiceTest.java
+├── pom.xml
+└── README.md
 
 
 7. How to run Application
