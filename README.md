@@ -107,7 +107,7 @@ i) You can now access the Bookstore API endpoints using a tool like Postman or b
     - MySQL documentation: [Link]
 
 15. Contact Information
-    - For support or inquiries, contact support@bookstoreapi.com
+    - For support or inquiries, contact katlegoraymond.mpete@gmail.com
 
 16. Version History
     - v1.0 (2024-06-01): Initial release
