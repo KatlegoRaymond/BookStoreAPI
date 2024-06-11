@@ -89,6 +89,9 @@ bookstoreapi
 ├── pom.xml
 └── README.md
 
+Please see also structure here
+![image](https://github.com/KatlegoRaymond/BookStoreAPI/assets/47275008/5ff89ef2-395a-4b48-9d73-e3bf6258074f)
+
 
 7. How to run Application
 
