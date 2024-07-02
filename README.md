@@ -96,8 +96,7 @@ i) You can now access the Bookstore API endpoints using a tool like Postman or b
     - If encountering database connection issues, check database credentials in `application.properties`.
 
 12. Contributors
-    - John Doe (@johndoe)
-    - Jane Smith (@janesmith)
+    - Katlego Mpete (katlegoraymond.mpete@gmail.com)
 
 13. License
     - This project is licensed under the MIT License.
