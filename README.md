@@ -1,5 +1,4 @@
-# BookStoreAPI
-Title: Bookstore API Documentation
+#Bookstore API 
 
 1. Introduction
    - This documentation provides an overview of the Bookstore API, a web application for managing a bookstore's inventory and orders.
@@ -15,81 +14,16 @@ Title: Bookstore API Documentation
    - Uses Spring Boot framework for rapid development and Spring Data JPA for database operations.
 
 4. Technology Stack
-   - Java, Spring Boot, Spring Data JPA, H2 Java SQL database, Maven
+   - Java, Spring Boot, Spring Data JPA, MySQL, Maven
 
 5. Features
    - CRUD operations for books
    - Order management
+   - Authentication and authorization
 
 6. Project Structure
-
-
-	bookstoreapi
-	│
-	├── src
-	│   ├── main
-	│   │   ├── java
-	│   │   │   └── com
-	│   │   │       └── api
-	│   │   │           └── bookstoreapi
-	│   │   │               ├── BookstoreApiApplication.java
-	│   │   │               ├── controller
-	│   │   │               │   ├── BookController.java
-	│   │   │               │   └── OrderController.java
-	│   │   │               ├── exception
-	│   │   │               │   ├── BookException.java
-	│   │   │               │   └── BookExceptionHandler.java
-	│   │   │               │   └── BookNotFoundException.java
-	│   │   │               ├── model
-	│   │   │               │   ├── Book.java
-	│   │   │               │   ├── BookFactory.java
-	│   │   │               │   ├── Order.java
-	│   │   │               │   └── OrderFactory.java
-	│   │   │               ├── repository
-	│   │   │               │   ├── BookRepository.java
-	│   │   │               │   ├── BookRepositoryImpl.java
-	│   │   │               │   └── OrderRepository.java
-	│   │   │               ├── response
-	│   │   │               │   └── ResponseHandler.java
-	│   │   │               └── service
-	│   │   │                   ├── BookService.java
-	│   │   │                   ├── OrderService.java
-	│   │   │                   ├── impl
-	│   │   │                   │   ├── BookServiceImpl.java
-	│   │   │                   │   └── OrderServiceImpl.java
-	│   │   │                   └── OrderProcessor.java
-	│   │   └── resources
-	│   │       └── application.properties
-	│   └── test
-	│       └── java
-	│           └── com
-	│               └── api
-	│                   └── bookstoreapi
-	│                       ├── BookstoreApplicationTests.java
-	│                       ├── controller
-	│                       │   ├── BookControllerTest.java
-	│                       │   └── OrderControllerTest.java
-	│                       ├── exception
-	│                       │   ├── BookNotFoundExceptionTest.java
-	│                       │   ├── BookExceptionHandlerTest.java
-	│                       │   └── BookExceptionTest.java
-	│                       ├── model
-	│                       │   ├── BookTest.java
-	│                       │   ├── BookFactoryTest.java
-	│                       │   ├── OrderTest.java
-	│                       │   └── OrderFactoryTest.java
-	│                       ├── repository
-	│                       │   ├── BookRepositoryImplTest.java
-	│                       │   └── OrderRepositoryTest.java
-	│                       └── service
-	│                           ├── BookServiceTest.java
-	│                           ├── OrderServiceTest.java
-	│							└──impl
-	│                           	├── BookServiceTest.java
-	│                           	└── OrderServiceTest.java
-	├── pom.xml
-	└── README.md
-
+ 
+![image](https://github.com/KatlegoRaymond/BookStoreAPI/assets/47275008/5ff89ef2-395a-4b48-9d73-e3bf6258074f)
 
 
 7. How to run Application
@@ -98,7 +32,7 @@ Title: Bookstore API Documentation
 To run the project using an IDE, follow these steps:
 
 a) Clone this repository to your local machine using Git:
-	https://github.com/your-username/bookstore-api.git
+	https://github.com/KatlegoRaymond/BookStoreAPI.git
 b) Navigate to the root directory of the cloned project
  Import Project: Open your preferred IDE (like IntelliJ IDEA, Eclipse, or Spring Tool Suite) and import the project into your workspace.
 c) Set up Dependencies: Ensure that you have Maven installed and properly configured in your IDE. Maven will automatically download the project dependencies specified in the pom.xml file.
@@ -114,7 +48,7 @@ h) You can now access the Bookstore API endpoints using a tool like Postman or b
 
 ## Run Using CMD
 a) Clone this repository to your local machine using Git:
-	https://github.com/your-username/bookstore-api.git
+	https://github.com/KatlegoRaymond/BookStoreAPI.git
 b) Navigate to the root directory of the project:
 	-cd target
 c) Run the following Maven command to build the application:
@@ -162,8 +96,7 @@ i) You can now access the Bookstore API endpoints using a tool like Postman or b
     - If encountering database connection issues, check database credentials in `application.properties`.
 
 12. Contributors
-    - John Doe (@johndoe)
-    - Jane Smith (@janesmith)
+    - Katlego Mpete (katlegoraymond.mpete@gmail.com)
 
 13. License
     - This project is licensed under the MIT License.
@@ -173,8 +106,7 @@ i) You can now access the Bookstore API endpoints using a tool like Postman or b
     - MySQL documentation: [Link]
 
 15. Contact Information
-    - For support or inquiries, contact support@bookstoreapi.com
+    - For support or inquiries, contact katlegoraymond.mpete@gmail.com
 
 16. Version History
     - v1.0 (2024-06-01): Initial release
-
