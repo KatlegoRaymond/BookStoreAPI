@@ -32,7 +32,7 @@ Bookstore API Documentation
 To run the project using an IDE, follow these steps:
 
 a) Clone this repository to your local machine using Git:
-	https://github.com/your-username/bookstore-api.git
+	https://github.com/KatlegoRaymond/BookStoreAPI.git
 b) Navigate to the root directory of the cloned project
  Import Project: Open your preferred IDE (like IntelliJ IDEA, Eclipse, or Spring Tool Suite) and import the project into your workspace.
 c) Set up Dependencies: Ensure that you have Maven installed and properly configured in your IDE. Maven will automatically download the project dependencies specified in the pom.xml file.
@@ -48,7 +48,7 @@ h) You can now access the Bookstore API endpoints using a tool like Postman or b
 
 ## Run Using CMD
 a) Clone this repository to your local machine using Git:
-	https://github.com/your-username/bookstore-api.git
+	https://github.com/KatlegoRaymond/BookStoreAPI.git
 b) Navigate to the root directory of the project:
 	-cd target
 c) Run the following Maven command to build the application:
